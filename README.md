@@ -1,21 +1,21 @@
-# Fallstudie: Strapi Blog Project
+# Fallstudie: keystone Blog Project
 
 ## Inledning
 
-Detta projekt är en del av en fallstudie som syftar till att jämföra headless CMS-lösningar, specifikt Strapi, med traditionella CMS-system. Genom att bygga en bloggapplikation med Strapi undersöker vi hur det påverkar utvecklingsprocessen, flexibiliteten och användarupplevelsen.
+Detta projekt är en del av en fallstudie som syftar till att jämföra headless CMS-lösningar, specifikt keystone, med traditionella CMS-system. Genom att bygga en bloggapplikation med keystone undersöker vi hur det påverkar utvecklingsprocessen, flexibiliteten och användarupplevelsen.
 
 ## Projektöversikt
 
 Detta projekt har följande struktur:
 
-/strapi-blog-project
+/keystone-blog-project
 
-├── /strapi-cms # Strapi headless CMS
+├── /keystone-cms # keystone headless CMS
 
 └── /frontend # Frontend-applikation
 
-- **/strapi-cms**: Innehåller bloggapplikationen byggd med Strapi som headless CMS.
-- **/frontend**: Innehåller frontend-applikationen som interagerar med Strapi CMS.
+- **/keystone-cms**: Innehåller bloggapplikationen byggd med keystone som headless CMS.
+- **/frontend**: Innehåller frontend-applikationen som interagerar med keystone CMS.
 
 ## Syfte
 
@@ -29,18 +29,18 @@ Syftet med denna fallstudie är att:
 
 Följ instruktionerna nedan för att ställa in projektet lokalt.
 
-### Strapi CMS
+### keystone CMS
 
 1. Klona detta repository:
    ```bash
-   git clone https://github.com/[ditt-github-användarnamn]/strapi-blog-project.git
-   cd strapi-blog-project/strapi-cms
+   git clone https://github.com/[ditt-github-användarnamn]/keystone-blog-project.git
+   cd keystone-blog-project/keystone-cms
 
 2. Installera nödvändiga paket:
    ```bash
    npm install
    
-3. Starta Strapi:
+3. Starta keystone:
    ```bash
    npm run develop
 
@@ -48,7 +48,7 @@ Följ instruktionerna nedan för att ställa in projektet lokalt.
 
 1. Starta en ny konsol och hoppa till frontend-mappen:
    ```bash
-   cd strapi-blog-project/frontend
+   cd keystone-blog-project/frontend
 
 2. Installera nödvändiga paket:
    ```bash
