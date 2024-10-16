@@ -2,14 +2,6 @@
 
 Detta repository innehåller källkoden för ett examensarbete som utforskar användningen av headless CMS för att bygga moderna webbapplikationer. Projektet syftar till att visa hur man kan separera innehållshantering (CMS) från presentationen (frontend) genom att använda ett headless CMS som backend och en fristående frontend för att konsumera innehållet.
 
-## Innehåll
-- [Introduktion](#introduktion)
-- [Teknologier](#teknologier)
-- [Installation](#installation)
-- [Konfiguration](#konfiguration)
-- [Användning](#användning)
-- [Mål och syfte](#mål-och-syfte)
-
 
 ## Teknologier
 
@@ -40,15 +32,17 @@ Följ dessa steg för att installera och köra projektet lokalt:
    npm run dev
    # eller
    yarn dev
-   Projektet kommer att vara tillgängligt på http://localhost:3000 (eller annan port beroende på konfiguration).
+Projektet kommer att vara tillgängligt på [http://localhost:3000](http://localhost:5173/) (eller annan port beroende på konfiguration).
    
-##CMS repon
+   ## CMS Repon
 
-[Strapi](https://github.com/Nyman556/strapi-blog-project)
-[KeystoneJS](https://github.com/Nyman556/keystone-cms-project)
+   [Strapi-cms-project](https://github.com/Nyman556/strapi-blog-project)
 
-##Syftet med detta examensarbete är att:
+   
+   [Keystone-cms-project](https://github.com/Nyman556/keystone-cms-project)
 
-Undersöka fördelar och nackdelar med att använda ett headless CMS.
-Demonstrera hur ett CMS kan användas som backend för olika frontend-teknologier.
-Utforska integrationen mellan ett headless CMS och moderna frontend-ramverk.
+   ## Syftet med detta examensarbete är att:
+
+   Undersöka fördelar och nackdelar med att använda ett headless CMS.
+   Demonstrera hur ett CMS kan användas som backend för olika frontend-teknologier.
+   Utforska integrationen mellan ett headless CMS och moderna frontend-ramverk.
